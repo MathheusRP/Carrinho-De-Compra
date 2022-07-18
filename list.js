@@ -17,12 +17,12 @@ const mercadoria = [
     {
         id: 3,
         nome: 'Mouse Gamer',
-        preco: 350.00
+        preco: 150.00
     },
     {
         id: 4,
         nome: 'Cadeira Gamer',
-        preco: 350.50
+        preco: 450.50
     },
     {
         id: 5,
@@ -32,7 +32,7 @@ const mercadoria = [
     {
         id: 6,
         nome: 'Teclado RGB',
-        preco: 350.00
+        preco: 150.00
     },
     {
         id: 7,
@@ -42,17 +42,17 @@ const mercadoria = [
     {
         id: 8,
         nome: 'Memoria Ram 8GB',
-        preco: 350.00
+        preco: 250.00
     },
     {
         id: 9,
         nome: 'HeadSet Gamer',
-        preco: 350.00
+        preco: 40.00
     },
     {
         id: 10,
         nome: 'Microfone',
-        preco: 350.00
+        preco: 50.00
     },
 ]
 
