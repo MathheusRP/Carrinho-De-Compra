@@ -75,7 +75,7 @@ function montarCard(valor){
     img.src                 = './img/no-image.png'
     img.alt                 = nome
     produtoNome.innerText   = nome
-    produtoComprar.innerText = preco 
+    produtoComprar.innerText = `${preco}` 
     produtoComprar.id       = id
 
     li.append(img, produtoText)
@@ -150,10 +150,12 @@ function somandoValor(valor){
     // somaValor.innerText         = 'R$ 00,00'
     let valorDaCompra = 0
     for(let i = 0; i < carrinhoDeCompra.length; i++){
-        numero = valor[i].preco
-        valorDaCompra +=  Number.parseFloat(numero)
+        numero = (valor[i].preco)
+        // console.log(numero)
+        // console.log (Number(numero))
+        valorDaCompra +=  parseFloat(numero)
         // Number.parseFloat(numero)
-        console.log(numero)
+        // console.log(numero)
     }
     somaValor.innerText = `R$ ${valorDaCompra}`.replace(".",",")
     // console.log(valorDaCompra)
